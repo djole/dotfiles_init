@@ -135,5 +135,6 @@ eval "$(pyenv virtualenv-init -)"
 export PATH=/usr/local/cuda-11.4/bin${PATH:+:${PATH}}
 export PATH="$HOME/bin:$PATH"
 export LD_LIBRARY_PATH=/usr/local/cuda-11.4/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+export PATH="$HOME/.pyenv/bin:$PATH"
 
 alias dotfiles='/usr/bin/git --git-dir=/home/djordje/.dotfiles/ --work-tree=/home/djordje'
